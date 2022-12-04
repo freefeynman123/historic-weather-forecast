@@ -1,0 +1,18 @@
+cookietemple_version: '1.4.1 # <<COOKIETEMPLE_NO_BUMP>>'
+domain: cli
+language: python
+project_slug: historic-weather-forecast
+project_slug_no_hyphen: historic_weather_forecast
+template_version: '2.1.1 # <<COOKIETEMPLE_NO_BUMP>>'
+template_handle: cli-python
+github_username: freefeynman123
+creator_github_username: freefeynman123
+is_github_repo: true
+is_repo_private: false
+is_github_orga: false
+full_name: Lukasz Bala
+email: lukasz3.bala@gmail.com
+project_name: historic-weather-forecast
+project_short_description: Historic weather forecast project
+version: 0.1.0
+license: MIT
