@@ -60,7 +60,6 @@ historic-weather-forecast = "historic_weather_forecast.__main__:main"
 
 [tool.poetry.group.dev.dependencies]
 jupyter = "^1.0.0"
-python-dotenv = "^0.21.0"
 
 [tool.black]
 line-length = 120
