@@ -25,6 +25,7 @@ click = ">=8.0.0"
 rich = ">=10.3.0"
 PyYAML = ">=5.4.1"
 pandas = "^1.5.2"
+scikit-learn = "^1.2.0"
 
 [tool.poetry.dev-dependencies]
 pytest = ">=6.2.3"
