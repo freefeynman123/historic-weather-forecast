@@ -14,7 +14,7 @@ exclude:
   dist
 repos:
 -   repo: https://github.com/pre-commit/pre-commit-hooks
-    rev: v3.4.0
+    rev: v4.4.0
     hooks:
     -   id: check-ast
     -   id: check-byte-order-marker
@@ -28,15 +28,15 @@ repos:
     -   id: trailing-whitespace
     -   id: mixed-line-ending
     -   id: double-quote-string-fixer
--   repo: https://github.com/pycqa/isort
-    rev: 5.6.3
-    hooks:
-    -   id: isort
-        args:
-          - --filter-files
-          - --profile=black
+#-   repo: https://github.com/pycqa/isort
+#    rev: 5.11.4
+#    hooks:
+#    -   id: isort
+#        args:
+#          - --filter-files
+#          - --profile=black
 -   repo: https://github.com/ambv/black
-    rev: 22.3.0
+    rev: 22.12.0
     hooks:
     - id: black
       language_version: python3
@@ -45,7 +45,7 @@ repos:
         - --line-length=120
         - --include='\.pyi?$'
 -   repo: https://github.com/PyCQA/flake8
-    rev: 3.7.9
+    rev: 6.0.0
     hooks:
     - id: flake8
       exclude: ^.*gix.*$

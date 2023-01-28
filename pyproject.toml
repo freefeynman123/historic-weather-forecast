@@ -12,6 +12,7 @@ packages = [
     { include = "historic_weather_forecast" },
 ]
 classifiers = [
+    "Programming Language :: Python :: 3.8",
     "Programming Language :: Python :: 3.9",
     "Programming Language :: Python :: 3.10",
 ]
@@ -90,5 +91,5 @@ source = ["historic_weather_forecast"]
 show_missing = true
 
 [build-system]
-requires = ["poetry-core>=1.0.0"]
+requires = ["poetry-core>=1.2.0"]
 build-backend = "poetry.core.masonry.api"
