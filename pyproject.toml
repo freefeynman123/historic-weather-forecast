@@ -12,7 +12,6 @@ packages = [
     { include = "historic_weather_forecast" },
 ]
 classifiers = [
-    "Programming Language :: Python :: 3.8",
     "Programming Language :: Python :: 3.9",
     "Programming Language :: Python :: 3.10",
 ]
@@ -20,7 +19,7 @@ classifiers = [
 
 [tool.poetry.dependencies]
 dparse = ">=0.5.2"
-python = "^3.8.0"
+python = "^3.9.0"
 click = ">=8.0.0"
 rich = ">=10.3.0"
 PyYAML = ">=5.4.1"
