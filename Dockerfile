@@ -1,4 +1,4 @@
-FROM python:3.8.1-alpine
+FROM python:3.9.1-alpine
 
 # A few Utilities to able to install C based libraries such as numpy
 RUN apk update
