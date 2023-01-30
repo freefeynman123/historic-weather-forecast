@@ -1372,6 +1372,7 @@ category = "dev"
 optional = false
 python-versions = "*"
 files = [
+    {file = "livereload-2.6.3-py2.py3-none-any.whl", hash = "sha256:ad4ac6f53b2d62bb6ce1a5e6e96f1f00976a32348afedcb4b6d68df2a1d346e4"},
     {file = "livereload-2.6.3.tar.gz", hash = "sha256:776f2f865e59fde56490a56bcc6773b6917366bce0c267c60ee8aaf1a0959869"},
 ]
 
@@ -2422,6 +2423,7 @@ category = "dev"
 optional = false
 python-versions = ">=3.6"
 files = [
+    {file = "pyzmq-25.0.0-cp310-cp310-macosx_10_15_universal2.whl", hash = "sha256:2d05d904f03ddf1e0d83d97341354dfe52244a619b5a1440a5f47a5b3451e84e"},
     {file = "pyzmq-25.0.0-cp310-cp310-macosx_10_9_x86_64.whl", hash = "sha256:0a154ef810d44f9d28868be04641f837374a64e7449df98d9208e76c260c7ef1"},
     {file = "pyzmq-25.0.0-cp310-cp310-manylinux_2_17_aarch64.manylinux2014_aarch64.whl", hash = "sha256:487305c2a011fdcf3db1f24e8814bb76d23bc4d2f46e145bc80316a59a9aa07d"},
     {file = "pyzmq-25.0.0-cp310-cp310-manylinux_2_17_i686.manylinux2014_i686.whl", hash = "sha256:2e7b87638ee30ab13230e37ce5331b3e730b1e0dda30120b9eeec3540ed292c8"},
@@ -2432,6 +2434,7 @@ files = [
     {file = "pyzmq-25.0.0-cp310-cp310-musllinux_1_1_x86_64.whl", hash = "sha256:4a1bc30f0c18444d51e9b0d0dd39e3a4e7c53ee74190bebef238cd58de577ea9"},
     {file = "pyzmq-25.0.0-cp310-cp310-win32.whl", hash = "sha256:01d53958c787cfea34091fcb8ef36003dbb7913b8e9f8f62a0715234ebc98b70"},
     {file = "pyzmq-25.0.0-cp310-cp310-win_amd64.whl", hash = "sha256:58fc3ad5e1cfd2e6d24741fbb1e216b388115d31b0ca6670f894187f280b6ba6"},
+    {file = "pyzmq-25.0.0-cp311-cp311-macosx_10_15_universal2.whl", hash = "sha256:e4bba04ea779a3d7ef25a821bb63fd0939142c88e7813e5bd9c6265a20c523a2"},
     {file = "pyzmq-25.0.0-cp311-cp311-macosx_10_9_x86_64.whl", hash = "sha256:af1fbfb7ad6ac0009ccee33c90a1d303431c7fb594335eb97760988727a37577"},
     {file = "pyzmq-25.0.0-cp311-cp311-manylinux_2_17_aarch64.manylinux2014_aarch64.whl", hash = "sha256:85456f0d8f3268eecd63dede3b99d5bd8d3b306310c37d4c15141111d22baeaf"},
     {file = "pyzmq-25.0.0-cp311-cp311-manylinux_2_17_i686.manylinux2014_i686.whl", hash = "sha256:0645b5a2d2a06fd8eb738018490c514907f7488bf9359c6ee9d92f62e844b76f"},
@@ -2460,6 +2463,7 @@ files = [
     {file = "pyzmq-25.0.0-cp37-cp37m-musllinux_1_1_x86_64.whl", hash = "sha256:183e18742be3621acf8908903f689ec520aee3f08449bfd29f583010ca33022b"},
     {file = "pyzmq-25.0.0-cp37-cp37m-win32.whl", hash = "sha256:02f5cb60a7da1edd5591a15efa654ffe2303297a41e1b40c3c8942f8f11fc17c"},
     {file = "pyzmq-25.0.0-cp37-cp37m-win_amd64.whl", hash = "sha256:cac602e02341eaaf4edfd3e29bd3fdef672e61d4e6dfe5c1d065172aee00acee"},
+    {file = "pyzmq-25.0.0-cp38-cp38-macosx_10_15_universal2.whl", hash = "sha256:e14df47c1265356715d3d66e90282a645ebc077b70b3806cf47efcb7d1d630cb"},
     {file = "pyzmq-25.0.0-cp38-cp38-macosx_10_9_x86_64.whl", hash = "sha256:293a7c2128690f496057f1f1eb6074f8746058d13588389981089ec45d8fdc77"},
     {file = "pyzmq-25.0.0-cp38-cp38-manylinux_2_12_i686.manylinux2010_i686.whl", hash = "sha256:731b208bc9412deeb553c9519dca47136b5a01ca66667cafd8733211941b17e4"},
     {file = "pyzmq-25.0.0-cp38-cp38-manylinux_2_12_x86_64.manylinux2010_x86_64.whl", hash = "sha256:b055a1cddf8035966ad13aa51edae5dc8f1bba0b5d5e06f7a843d8b83dc9b66b"},
@@ -2469,6 +2473,7 @@ files = [
     {file = "pyzmq-25.0.0-cp38-cp38-musllinux_1_1_x86_64.whl", hash = "sha256:be05504af0619d1cffa500af1e0ede69fb683f301003851f5993b5247cc2c576"},
     {file = "pyzmq-25.0.0-cp38-cp38-win32.whl", hash = "sha256:6bf3842af37af43fa953e96074ebbb5315f6a297198f805d019d788a1021dbc8"},
     {file = "pyzmq-25.0.0-cp38-cp38-win_amd64.whl", hash = "sha256:b90bb8dfbbd138558f1f284fecfe328f7653616ff9a972433a00711d9475d1a9"},
+    {file = "pyzmq-25.0.0-cp39-cp39-macosx_10_15_universal2.whl", hash = "sha256:62b9e80890c0d2408eb42d5d7e1fc62a5ce71be3288684788f74cf3e59ffd6e2"},
     {file = "pyzmq-25.0.0-cp39-cp39-macosx_10_9_x86_64.whl", hash = "sha256:484c2c4ee02c1edc07039f42130bd16e804b1fe81c4f428e0042e03967f40c20"},
     {file = "pyzmq-25.0.0-cp39-cp39-manylinux_2_12_i686.manylinux2010_i686.whl", hash = "sha256:9ca6db34b26c4d3e9b0728841ec9aa39484eee272caa97972ec8c8e231b20c7e"},
     {file = "pyzmq-25.0.0-cp39-cp39-manylinux_2_12_x86_64.manylinux2010_x86_64.whl", hash = "sha256:610d2d112acd4e5501fac31010064a6c6efd716ceb968e443cae0059eb7b86de"},
@@ -2661,6 +2666,7 @@ files = [
     {file = "ruamel.yaml.clib-0.2.7-cp310-cp310-win_amd64.whl", hash = "sha256:d000f258cf42fec2b1bbf2863c61d7b8918d31ffee905da62dede869254d3b8a"},
     {file = "ruamel.yaml.clib-0.2.7-cp311-cp311-macosx_10_9_universal2.whl", hash = "sha256:045e0626baf1c52e5527bd5db361bc83180faaba2ff586e763d3d5982a876a9e"},
     {file = "ruamel.yaml.clib-0.2.7-cp311-cp311-macosx_12_6_arm64.whl", hash = "sha256:721bc4ba4525f53f6a611ec0967bdcee61b31df5a56801281027a3a6d1c2daf5"},
+    {file = "ruamel.yaml.clib-0.2.7-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.manylinux_2_24_x86_64.whl", hash = "sha256:41d0f1fa4c6830176eef5b276af04c89320ea616655d01327d5ce65e50575c94"},
     {file = "ruamel.yaml.clib-0.2.7-cp36-cp36m-macosx_10_9_x86_64.whl", hash = "sha256:4b3a93bb9bc662fc1f99c5c3ea8e623d8b23ad22f861eb6fce9377ac07ad6072"},
     {file = "ruamel.yaml.clib-0.2.7-cp36-cp36m-macosx_12_0_arm64.whl", hash = "sha256:a234a20ae07e8469da311e182e70ef6b199d0fbeb6c6cc2901204dd87fb867e8"},
     {file = "ruamel.yaml.clib-0.2.7-cp36-cp36m-manylinux2014_aarch64.whl", hash = "sha256:15910ef4f3e537eea7fe45f8a5d19997479940d9196f357152a09031c5be59f3"},
@@ -3448,14 +3454,14 @@ files = [
 
 [[package]]
 name = "xdoctest"
-version = "1.1.0"
+version = "1.1.1"
 description = "A rewrite of the builtin doctest module"
 category = "dev"
 optional = false
 python-versions = ">=3.6"
 files = [
-    {file = "xdoctest-1.1.0-py3-none-any.whl", hash = "sha256:da330c4dacee51f3c785820bc743188fb6f7c64c5fa1c54bff8836b3cf23d69b"},
-    {file = "xdoctest-1.1.0.tar.gz", hash = "sha256:0fd4fad7932f0a2f082dfdfb857dd6ca41603757586c39b1e5b4d333fc389f8a"},
+    {file = "xdoctest-1.1.1-py3-none-any.whl", hash = "sha256:d59d4ed91cb92e4430ef0ad1b134a2bef02adff7d2fb9c9f057547bee44081a2"},
+    {file = "xdoctest-1.1.1.tar.gz", hash = "sha256:2eac8131bdcdf2781b4e5a62d6de87f044b730cc8db8af142a51bb29c245e779"},
 ]
 
 [package.dependencies]
@@ -3464,15 +3470,17 @@ Pygments = {version = "*", optional = true, markers = "python_version >= \"3.5.0
 six = "*"
 
 [package.extras]
-all = ["IPython", "IPython", "Pygments", "Pygments", "attrs", "cmake", "codecov", "colorama", "debugpy", "debugpy", "debugpy", "debugpy", "debugpy", "ipykernel", "ipykernel", "ipython-genutils", "jedi", "jinja2", "jupyter-client", "jupyter-client", "jupyter-core", "nbconvert", "ninja", "pybind11", "pytest", "pytest", "pytest", "pytest", "pytest", "pytest", "pytest-cov", "pytest-cov", "pytest-cov", "pytest-cov", "scikit-build", "six", "typing"]
-all-strict = ["IPython (==7.10.0)", "IPython (==7.23.1)", "Pygments (==2.0.0)", "Pygments (==2.4.1)", "attrs (==19.2.0)", "cmake (==3.21.2)", "codecov (==2.0.15)", "colorama (==0.4.1)", "debugpy (==1.0.0)", "debugpy (==1.0.0)", "debugpy (==1.0.0)", "debugpy (==1.3.0)", "debugpy (==1.6.0)", "ipykernel (==5.2.0)", "ipykernel (==6.0.0)", "ipython-genutils (==0.2.0)", "jedi (==0.16)", "jinja2 (==3.0.0)", "jupyter-client (==6.1.5)", "jupyter-client (==7.0.0)", "jupyter-core (==4.7.0)", "nbconvert (==6.0.0)", "ninja (==1.10.2)", "pybind11 (==2.7.1)", "pytest (==4.6.0)", "pytest (==4.6.0)", "pytest (==4.6.0)", "pytest (==4.6.0)", "pytest (==4.6.0)", "pytest (==6.2.5)", "pytest-cov (==2.8.1)", "pytest-cov (==2.8.1)", "pytest-cov (==2.9.0)", "pytest-cov (==3.0.0)", "scikit-build (==0.11.1)", "six (==1.11.0)", "typing (==3.7.4)"]
+all = ["IPython", "IPython", "Pygments", "Pygments", "attrs", "codecov", "colorama", "debugpy", "debugpy", "debugpy", "debugpy", "debugpy", "ipykernel", "ipykernel", "ipython-genutils", "jedi", "jinja2", "jupyter-client", "jupyter-client", "jupyter-core", "nbconvert", "pyflakes", "pytest", "pytest", "pytest", "pytest-cov", "six", "tomli", "typing"]
+all-strict = ["IPython (==7.10.0)", "IPython (==7.23.1)", "Pygments (==2.0.0)", "Pygments (==2.4.1)", "attrs (==19.2.0)", "codecov (==2.0.15)", "colorama (==0.4.1)", "debugpy (==1.0.0)", "debugpy (==1.0.0)", "debugpy (==1.0.0)", "debugpy (==1.3.0)", "debugpy (==1.6.0)", "ipykernel (==5.2.0)", "ipykernel (==6.0.0)", "ipython-genutils (==0.2.0)", "jedi (==0.16)", "jinja2 (==3.0.0)", "jupyter-client (==6.1.5)", "jupyter-client (==7.0.0)", "jupyter-core (==4.7.0)", "nbconvert (==6.0.0)", "pyflakes (==2.2.0)", "pytest (==4.6.0)", "pytest (==4.6.0)", "pytest (==6.2.5)", "pytest-cov (==3.0.0)", "six (==1.11.0)", "tomli (==0.2.0)", "typing (==3.7.4)"]
 colors = ["Pygments", "Pygments", "colorama"]
 jupyter = ["IPython", "IPython", "attrs", "debugpy", "debugpy", "debugpy", "debugpy", "debugpy", "ipykernel", "ipykernel", "ipython-genutils", "jedi", "jinja2", "jupyter-client", "jupyter-client", "jupyter-core", "nbconvert"]
 optional = ["IPython", "IPython", "Pygments", "Pygments", "attrs", "colorama", "debugpy", "debugpy", "debugpy", "debugpy", "debugpy", "ipykernel", "ipykernel", "ipython-genutils", "jedi", "jinja2", "jupyter-client", "jupyter-client", "jupyter-core", "nbconvert", "pyflakes", "tomli"]
 optional-strict = ["IPython (==7.10.0)", "IPython (==7.23.1)", "Pygments (==2.0.0)", "Pygments (==2.4.1)", "attrs (==19.2.0)", "colorama (==0.4.1)", "debugpy (==1.0.0)", "debugpy (==1.0.0)", "debugpy (==1.0.0)", "debugpy (==1.3.0)", "debugpy (==1.6.0)", "ipykernel (==5.2.0)", "ipykernel (==6.0.0)", "ipython-genutils (==0.2.0)", "jedi (==0.16)", "jinja2 (==3.0.0)", "jupyter-client (==6.1.5)", "jupyter-client (==7.0.0)", "jupyter-core (==4.7.0)", "nbconvert (==6.0.0)", "pyflakes (==2.2.0)", "tomli (==0.2.0)"]
 runtime-strict = ["six (==1.11.0)"]
-tests = ["cmake", "codecov", "ninja", "pybind11", "pytest", "pytest", "pytest", "pytest", "pytest", "pytest", "pytest-cov", "pytest-cov", "pytest-cov", "pytest-cov", "scikit-build", "typing"]
-tests-strict = ["cmake (==3.21.2)", "codecov (==2.0.15)", "ninja (==1.10.2)", "pybind11 (==2.7.1)", "pytest (==4.6.0)", "pytest (==4.6.0)", "pytest (==4.6.0)", "pytest (==4.6.0)", "pytest (==4.6.0)", "pytest (==6.2.5)", "pytest-cov (==2.8.1)", "pytest-cov (==2.8.1)", "pytest-cov (==2.9.0)", "pytest-cov (==3.0.0)", "scikit-build (==0.11.1)", "typing (==3.7.4)"]
+tests = ["codecov", "pytest", "pytest", "pytest", "pytest-cov", "typing"]
+tests-binary = ["cmake", "cmake", "ninja", "ninja", "pybind11", "pybind11", "scikit-build", "scikit-build"]
+tests-binary-strict = ["cmake (==3.21.2)", "cmake (==3.25.0)", "ninja (==1.10.2)", "ninja (==1.11.1)", "pybind11 (==2.10.3)", "pybind11 (==2.7.1)", "scikit-build (==0.11.1)", "scikit-build (==0.16.1)"]
+tests-strict = ["codecov (==2.0.15)", "pytest (==4.6.0)", "pytest (==4.6.0)", "pytest (==6.2.5)", "pytest-cov (==3.0.0)", "typing (==3.7.4)"]
 
 [[package]]
 name = "zipp"
